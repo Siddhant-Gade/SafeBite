@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: white;
+            padding: 40px 20px;
+            font-size: 1.5em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-info,
+        .team,
+        .timeline {
+            margin: 50px auto;
+            padding: 20px;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-info:hover,
+        .team:hover,
+        .timeline:hover {
+            transform: translateY(-10px);
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .member {
+            margin: 15px;
+            padding: 15px;
+            background: #ffebeb;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .member:hover {
+            transform: scale(1.1);
+        }
+
+        .member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ff758c;
+        }
+
+        .timeline-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .timeline-item {
+            margin: 20px;
+            padding: 15px;
+            background: #e0f7fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            transform: rotate(5deg);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Safe Bite: Internationally Declared Harmful & Banned Substance Identifier With Nutrition Analysis</h1>
+        <p>Meet the team behind the innovation</p>
+    </header>
+
+    <section class="project-info" data-aos="fade-up">
+        <h2>Overview</h2>
+        <p>A team of six ambitious first-year students from Vishwakarma Institute of Technology, Pune, embarked on a
+            journey to develop an impactful project that could benefit society at large. Initially, they explored
+            various innovative ideas, ranging from technological advancements to automation solutions. However, they
+            soon realized the significance of creating something that directly addresses public health and safety. With
+            a shared vision of contributing to consumer well-being, they conceptualized Safe Bite: Internationally
+            Declared Harmful & Banned Substance Identifier With Nutrition Analysis. This groundbreaking initiative aims
+            to empower individuals by identifying banned or harmful ingredients in food products while also providing
+            detailed nutritional analysis. Recognizing the increasing complexity of global food regulations and health
+            concerns, the team sought to bridge the gap between consumer awareness and food safety standards. Their
+            dedication to leveraging technology for the greater good led to the development of Safe Bite, a platform
+            designed to enhance transparency, promote healthier choices, and ensure compliance with international food
+            safety norms.</p>
+    </section>
+
+    <section class="team" data-aos="fade-up">
+        <h2>Meet the Team</h2>
+        <div class="team-members">
+
+            <div class="member" data-aos="zoom-in">
+                <img src="./Vijay Sir.jpg" alt="Member 1">
+                <h3>Prof. Vijay Rathod</h3>
+                <p>Project Guide</p>
+
+            </div>
+
+            <div class="member" data-aos="zoom-in">
+                <img src="./Durgesh.jpg" alt="Member 2">
+                <h3>Durgesh Shukla</h3>
+
+            </div>
+            <div class="member" data-aos="zoom-in">
+                <img src="./Siddhant.jpg" alt="Member 3">
+                <h3>Siddhant Gade</h3>
+
+            </div>
+            <div class="member" data-aos="zoom-in">
+                <img src="./Siddharth.jpg" alt="Member 4">
+                <h3>Siddharth Deulkar</h3>
+
+            </div>
+            <div class="member" data-aos="zoom-in">
+                <img src="./Tushar.jpg" alt="Member 5">
+                <h3>Tusharkumar Singh</h3>
+
+            </div>
+            <div class="member" data-aos="zoom-in">
+                <img src="./Soham.jpg" alt="Member 6">
+                <h3>Soham Kanathia</h3>
+
+            </div>
+            <div class="member" data-aos="zoom-in">
+                <img src="./Rushi.jpg" alt="Member 7">
+                <h3>Rushi Solankar</h3>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>made with love by group 7</p>
+    </footer>
+
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+
+</html>
